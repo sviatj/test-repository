@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    }
+    
+    html {
+    scroll-behavior: smooth; 
+    }
+    
+    body {
+    overflow-x: hidden; 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 200px;
+    min-height: 100vh;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #D03B00;
+    
+    margin: 0;
+    padding: 0;
+    
+    }
+    
+    .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    }
+    
+    .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 200px;
+    }
+    
+    .section {
+    width: 50%;
+    padding: 40px;
+    }
+    
+    .section-title {
+    text-decoration: underline #D03B00;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+    }
+    
+    
+    h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 0px;
+    line-height: 1.3;
+    }
+    
+    .section-profile {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    }
+    
+    
+    .profile-picture {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 10px 4px #FDF7E9;
+    }
+    
+    .nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    top: 0;
+    background-color: #D03B00;
+    }
+    
+    .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    
+    }
+    
+    .nav-list {
+    list-style: none;
+    }
+    
+    .nav-link {
+    padding: 0 20px;
+    text-decoration: none;
+    transition: .3s;
+    }
+    
+    a.nav-link{
+    color:white;
+    }
+    
+    a.nav-link:hover{
+    text-decoration: underline;
+    color: black;
+    }
+    
+    @media (max-width: 768px) {
+    .section {
+    width: 100%;
+    padding: 0 20px;
+    }
+    }
+    
+    .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 40px;
+    height: 90px;
+    }
+    
+    .rs-school {
+    width: 120px;
+    height: 45px;
+    }
+    
+    a.link {
+    text-decoration: none;
+    color: black;
+    }
+    
+    a.link:hover {
+    text-decoration: underline;
+    }
+    
+    a.link {
+    text-decoration: none;
+    color: black;
+    padding-left: 0px;
+    }
+    
+    a.link:hover{
+    text-decoration: underline;
+    }
+    
+    
+    body::after {
+    z-index: -1;
+    content: '';
+    background: url(/assets/svg/bg_element-star.svg);
+    position:absolute;
+    top:700px;
+    left:921px;
+    height: 900px;
+    width: 500px;
+    background-repeat: no-repeat;
+    }
+    
+    body::before {
+    content: '';
+    background: url(/assets/svg/bg-element--global.svg);
+    position:absolute;
+    top:-69px;
+    left:-133px;;
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    }
+    
+    .code-container {
+    z-index: 1;
+    background-color: #FDF7E9;
+    width: 230px;
+    height: 100px;
+    border-radius: 15%;
+    text-align: center;
+    padding: 0px;
+    }
+    
+    ::selection {
+    background: #FDF7E9;
+    }
+    
+    .highlight {
+    display: inline-block;
+    border-radius: 15%;
+    height: 25px;
+    background: #FDF7E9;
+    }
+    
+    .skills-list, .contact-list, .courses-list {
+      line-height: 2;
+    }
+    
