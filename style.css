@@ -151,7 +151,7 @@
     body::after {
     z-index: -1;
     content: '';
-    background: url(assets/svg/bg_element-star.svg);
+    background: url("assets/svg/bg_element-star.svg");
     position:absolute;
     top:700px;
     left:921px;
@@ -162,7 +162,7 @@
     
     body::before {
     content: '';
-    background: url(assets/svg/bg-element--global.svg);
+    background: url("assets/svg/bg-element--global.svg");
     position:absolute;
     top:-69px;
     left:-133px;;
